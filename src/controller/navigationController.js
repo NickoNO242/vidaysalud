@@ -18,8 +18,8 @@ const navigationController ={
     // getPuzle6 : (req, res , next) => {
     //     res.render('../views/PUZLE6.ejs')
     // },
-    getPuzzle5 : (req, res , next) => {
-        res.render('../views/JUEG_ahorcado_F_2.ejs')
+    getPuzle5 : (req, res , next) => {
+        res.render('../views/PUZLE5ejs')
     },
     getRegisterForm : (req, res , next) => {
         res.render('../views/registerForm.ejs')
