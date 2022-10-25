@@ -3,8 +3,8 @@
 body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
-  background-image: url(../img/project/prueba2.jpg);
-  background-repeat: repeat;
+  background-image: url(../img/fondo.jpg);
+  background-repeat:repeat
 }
 
 
@@ -47,11 +47,17 @@ a:hover {
 }
 
 p {
-  font-size: 22px;
-  font-weight:bolder;
+  font-size: 24px;
+  font-weight:800;
   line-height: 1.5;
-  color: #7618b4;
+  color: #ffffff ;
 
+}
+.pe{
+  font-size: 24px;
+  font-weight:800;
+  line-height: 1.5;
+  color: black ;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,19 +66,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: #7618b4;
+  color: #ffffff ;
   font-size: 2.8em;
   margin: 24px 0;
 }
 
 h2 {
-  color:#7618b4;
+  color:#ffffff ;
   font-size: 2.4em;
   font-weight: bold;
 }
 
 h3 {
-  color: #7618b4;
+  color: #ffffff ;
 }
 
 h3,
@@ -199,7 +205,7 @@ b, strong {
 
 .nav-link {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 25px;
   overflow: hidden;
 }
 .nav-link span {
@@ -496,6 +502,10 @@ b, strong {
 }
 .video{
   width: 60vw;
+  
+}
+.video2{
+  height: 75vh
 }
 .icon-container{
   display: flex;
@@ -625,10 +635,14 @@ b, strong {
     margin: 10px 0 0 0;
   }
   .pop{
-    width:70vw;
-    height: 65vh; 
+    width:80vw;
+    height: 75vh; 
   }
   .video{
+    height: 30vh;
+    width: 85vw;
+  }
+  .video2{
     height: 30vh;
     width: 85vw;
   }

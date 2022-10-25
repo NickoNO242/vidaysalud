@@ -12,15 +12,12 @@ const navigationController ={
     getPuzle4 : (req, res , next) => {
         res.render('../views/PUZLE4.ejs')
     },
-    // getPuzle5 : (req, res , next) => {
-    //     res.render('../views/PUZLE5.ejs')
-    // },
-    // getPuzle6 : (req, res , next) => {
-    //     res.render('../views/PUZLE6.ejs')
-    // },
     getPuzle5 : (req, res , next) => {
-        res.render('../views/PUZLE5ejs')
+        res.render('../views/PUZLE5.ejs')
     },
+    getPuzle6 : (req, res , next) => {
+        res.render('../views/PUZLE6.ejs')
+     },
     getRegisterForm : (req, res , next) => {
         res.render('../views/registerForm.ejs')
     },
@@ -29,6 +26,9 @@ const navigationController ={
     },
     getTips : (req, res , next) => {
         res.render('../views/tips.ejs')
+    },
+    getConozcanos : (req, res , next) => {
+        res.render('../views/conozcanos.ejs')
     }
 
 }

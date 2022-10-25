@@ -28,6 +28,11 @@ margin-block-start: 15%;
     margin: auto;
     border-radius: 1px solid blue;
 }
+.main-game{
+    margin: auto;
+    display: flex;
+    width: 80%
+};
 .form-label_subtittle{
     font-size: 20px;
     font-weight: bold;
