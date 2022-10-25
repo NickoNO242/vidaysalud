@@ -12,11 +12,14 @@ const navigationController ={
     getPuzle4 : (req, res , next) => {
         res.render('../views/PUZLE4.ejs')
     },
-    getPuzle5 : (req, res , next) => {
-        res.render('../views/PUZLE5.ejs')
-    },
-    getPuzle6 : (req, res , next) => {
-        res.render('../views/PUZLE6.ejs')
+    // getPuzle5 : (req, res , next) => {
+    //     res.render('../views/PUZLE5.ejs')
+    // },
+    // getPuzle6 : (req, res , next) => {
+    //     res.render('../views/PUZLE6.ejs')
+    // },
+    getPuzzle5 : (req, res , next) => {
+        res.render('../views/JUEG_ahorcado_F_2.ejs')
     },
     getRegisterForm : (req, res , next) => {
         res.render('../views/registerForm.ejs')
@@ -27,6 +30,7 @@ const navigationController ={
     getTips : (req, res , next) => {
         res.render('../views/tips.ejs')
     }
+
 }
 
 module.exports =navigationController

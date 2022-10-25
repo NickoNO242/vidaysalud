@@ -131,8 +131,8 @@ margin-block-start: 15%;
 }
 .logogo{
     display: flex;
-    width: 5vw;
-    height: 5vh;
+    width: 20vw;
+    height: 20vh;
     padding: 0px;
 }
 .card{
