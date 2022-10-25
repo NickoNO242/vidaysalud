@@ -1,0 +1,29 @@
+{
+  "name": "paginafran",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1",
+    "cookie-parser": "^1.4.6",
+    "debug": "~2.6.9",
+    "ejs": "^2.6.2",
+    "express": "^4.16.4",
+    "http-errors": "^1.8.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sequelize-auto": "^0.8.5"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
