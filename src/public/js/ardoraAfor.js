@@ -7,7 +7,7 @@ if (tiAval){parent.iniciaActividade()}if ((tiTime) && (tiButtonTime)){paintButto
 }
 function paintQuest(){$("#ardoraQuest").html("");
 if (audioW[indexG].localeCompare("")==0){$("#ardoraQuest").html("<p>" + questionW[indexG] + "</p>");}else{
-$("#ardoraQuest").html("<img id='playSound' class='imaLeft' src='JUEG_ahorcado_F_2_resources/media/' alt='Sound' align='left'>"+ "<p>" + questionW[indexG] + "</p>");
+$("#ardoraQuest").html("<img id='playSound' class='imaLeft' src='../img/media/' alt='Sound' align='left'>"+ "<p>" + questionW[indexG] + "</p>");
 $("#playSound").bind("click", function (e) {var au="audio"+audioW[indexG];document.getElementById(au).play();});}
 profG=parseInt($("#ardoraQuest").css("height").replace("px", ""));
 $("#ardoraImage").html("");if (imageW[indexG].localeCompare("")!=0){$("#ardoraImage").html("<img alt='"+alterW[indexG]+"' src='"+dirMedia+imageW[indexG]+"'/>");}

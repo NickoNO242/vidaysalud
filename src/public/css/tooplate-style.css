@@ -45,7 +45,37 @@ a:hover {
 .navbar-brand .uil {
   font-size: 35px;
 }
-
+.conozcanos{
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.fotos{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.foto{
+  display: flex;
+  width: 50%; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.foto-id{
+  display: flex;
+  width: 45vw;
+  height: 80vh;
+  padding: 0px;
+  flex-wrap: wrap;
+  border-radius: 50%;
+  border: #ffffff solid 10px;
+  margin: 5px
+}
+.p-foto{
+  text-align: center;
+}
 p {
   font-size: 24px;
   font-weight:800;
@@ -143,6 +173,7 @@ b, strong {
 .animated-item:nth-child(3n+3) {
   animation-delay: 4s;
 }
+
 
 @keyframes BottomTotop {
   0% {

@@ -29,4 +29,4 @@ for (i=0;i<capas.length;i++){if (parseInt($(capas[i]).css("z-index"),10)>valueZi
 var words=["UEVSQSA=","U0FORElBIA==","RlJFU0Eg","UExBVEFOTyA=","Q09DTw==","UEnDkUEg","QUdVQUNBVEU=","Q0VSRVpBIA==","",""];imaW=["","","","","","","","","",""];queW=["Blanca por dentro verde por fuera ","Roja por dentro ","Yo rimo con esa color de cereza del suelo a la mesa te doy la sorpresa ","Amarillo por fuera, blanco por dentro","Tengo duro el corazon, plulpa blanca y liquido en mi interior ","Tiene escamas pero no es un pez, tiene corona pero no es un rey ","Agua pasa por mi casa, cate que no lo vi","La A, anda la B, besa la C, reza","",""];var wordsL=[4,6,5,7,4,4,8,6,"",""];var altW=["","","","","","","","","",""];
 var auW=["","","","","","","","","",""];
 var fillLetter="ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÜ "; wordsG=[];var wordsGL=[]; indexG=0; actMaxWidth=550; indexWord=0; totalWord=0;
-var alterW=[];var imageW=[];questionW=[];audioW=[];profG=0; dirMedia="JUEG_ahorcado_F_2_resources/media/"; textBNext="Siguiente palabra ";
+var alterW=[];var imageW=[];questionW=[];audioW=[];profG=0; dirMedia="../img/media/"; textBNext="Siguiente palabra ";
